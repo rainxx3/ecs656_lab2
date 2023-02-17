@@ -30,6 +30,6 @@ public class PingPongEndpoint {
 	}
 	@GetMapping("/multiply")
 	public String multiply() {
-		return grpcClientService.mult();
+		return grpcClientService.multiply();
 	}
 }
